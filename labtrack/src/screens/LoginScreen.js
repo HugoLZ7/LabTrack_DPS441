@@ -21,7 +21,7 @@ export default function LoginScreen({ navigation }) {
   const [visible, setVisible] = useState(false);
   const [error, setError] = useState("");
 
-  const validarLogin = () => {
+const validarLogin = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!email || !password) {
@@ -36,10 +36,11 @@ export default function LoginScreen({ navigation }) {
     setError(""); 
     setVisible(true); 
 
-    
+    // Este tiempo es el que dura la modal de "Éxito" en pantalla
     setTimeout(() => {
       setVisible(false);
-      // navigation.navigate('AdminDashboard');
+      // Cambiamos navigate por replace para "limpiar" el historial de navegación
+      navigation.replace('AdminDashboard'); 
     }, 2000);
   };
 

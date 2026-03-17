@@ -1,8 +1,8 @@
 ## Integrantes 
-Jorge Luis Lugo González LG242867
-Hugo Alberto López Rivera LR252072
-Gabriel Mario Hernández Rosales HR242882
-Camila Alejandra Beltrán Medrano BM241462
+* Jorge Luis Lugo González LG242867
+* Hugo Alberto López Rivera LR252072
+* Gabriel Mario Hernández Rosales HR242882
+* Camila Alejandra Beltrán Medrano BM241462
 
 ## Enlace de trabajo en Trello
 https://trello.com/b/ot11whHv/proyecto-final-dps441
